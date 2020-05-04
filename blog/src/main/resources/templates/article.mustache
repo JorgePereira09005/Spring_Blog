@@ -1,0 +1,33 @@
+<!-- note: user = author -->
+
+{{> header}}
+
+<div class="container">
+
+	<section class="article">
+	
+		<header class="article-header">
+		
+			<h1 class="article-title">{{article.title}}</h1>
+
+		    <p class="article-meta></p>
+		
+
+			<p class="article-meta>By <strong>{{article.user.firstName}}</strong></p>
+
+		
+		</header>
+		
+		<div class="article-description">
+			{{article.headline}}
+			
+			<br><br>
+			
+			{{article.content}}
+		</div>
+	
+	</section>
+
+</div>
+
+{{> footer}}
